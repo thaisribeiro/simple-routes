@@ -5,7 +5,7 @@ import Routes from '../handlers/Routes'
 
 const routes = configRoutes('users', userSchema)
 
-export default class MovieService {
+export default class UserService {
   /**
    * Constructor
    * @param {*} router  - express

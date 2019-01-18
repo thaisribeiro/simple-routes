@@ -6,7 +6,7 @@ module.exports = (model) => async (request, response, next) => {
 
     response.status(200).json({ status: 'success', data: { result } })
   } catch (error) {
-    console.log('Eror', error)
+    console.log('Error', error)
     next(new GeneralError(error.message))
   }
 }
